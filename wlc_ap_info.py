@@ -63,6 +63,7 @@ def get_ap_cdp_info(device_commands_dict):
     return wlc_ap_dict
 
 if __name__ == '__main__':
+    start_time = time.time()
     username = config.USERNAME
     password = config.PASSWORD
     url = config.URL
@@ -92,3 +93,8 @@ if __name__ == '__main__':
             for ap in ap_statistics[wlc]:
                 if ap_statistics[wlc][ap]['speed'].lower() == '100 mbps':
                     print(f'{ap},{wlc},{ap_statistics[wlc][ap]["interface"]},{ap_statistics[wlc][ap]["speed"]},{ap_cdp_info[wlc][ap]["neighbor_name"]},{ap_cdp_info[wlc][ap]["neighbor_ip"] if ap_cdp_info[wlc][ap].get("neighbor_ip") else ""},{ap_cdp_info[wlc][ap]["neighbor_port"]}', file=ap_neighbors_file)
+    
+    end_time = time.time()
+    execution_time_seconds = end_time - start_time
+    execution_time_minutes = execution_time_seconds / 60
+    print(f"El tiempo de ejecución es: {int(execution_time_minutes)} minutos")

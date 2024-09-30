@@ -138,6 +138,7 @@ def readOnlyCommand(dnac, commands, deviceList, log_file=None):
     return device_commands_dict
 
 if __name__ == '__main__':
+    start_time = time.time()
     #username = input('Enter DNAC username: ')
     #password = input('Enter DNAC password: ')
     #url = input('Enter DNAC URL: ')
@@ -169,3 +170,8 @@ if __name__ == '__main__':
                 for ap_stats in ap_dfs_statistics[wlc]['ap'][ap]:
                      print(f'{ap},{wlc},{ap_dfs_statistics[wlc]["software_type"]},{ap_dfs_statistics[wlc]["software_version"]},{ap_stats["channel_changes"]},{ap_stats["filtered_events_on_serving_radio"]},{ap_stats["filtered_events_on_integrated_rf"]},{ap_stats["triggered_radar_events"]},{ap_stats["dfs_statistics_last_update"]}',file=ap_dfs_statistics_file)
                     #print(f'{ap},{wlc},{ap_dfs_statistics[wlc]["software_type"]},{ap_dfs_statistics[wlc]["software_version"]},{ap_dfs_statistics[wlc]["ap"][ap]["channel_changes"]},{ap_dfs_statistics[wlc]["ap"][ap]["filtered_events_on_serving_radio"]},{ap_dfs_statistics[wlc]["ap"][ap]["filtered_events_on_integrated_rf"]},{ap_dfs_statistics[wlc]["ap"][ap]["triggered_radar_events"]},{ap_dfs_statistics[wlc]["ap"][ap]["dfs_statistics_last_update"]}',file=ap_dfs_statistics_file)
+
+    end_time = time.time()
+    execution_time_seconds = end_time - start_time
+    execution_time_minutes = execution_time_seconds / 60
+    print(f"El tiempo de ejecución es: {int(execution_time_minutes)} minutos")
