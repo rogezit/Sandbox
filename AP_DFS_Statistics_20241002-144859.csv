@@ -1,0 +1,15 @@
+AP Name,WLC,WLCSoftware Type,WLC Software Version,Channel changes due to radar,Filtered events on serving radio,Filtered events on Cisco Integrated RF ASIC,Triggered radar events,DFS statistics last updated
+MPIC-M6.5-AP18,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,23934159 seconds ago
+APA00F-379C-1FC8,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,16234070 seconds ago
+APA00F-379C-2090,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,36136721 seconds ago
+TMMK-H-10-AP-21,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,23934125 seconds ago
+TMMK-M-10,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,16234068 seconds ago
+APA00F-379C-2410,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,23934160 seconds ago
+TMMK-K-12-AP-20,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,23934138 seconds ago
+TMMK-H-12-AP-22,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,23934135 seconds ago
+TMMK-M-14,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,16234068 seconds ago
+APA00F-379C-2750,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,36136731 seconds ago
+TMMK-M-12,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,16234074 seconds ago
+TMMK-K-14,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,16234080 seconds ago
+TMMK-K-10-AP-19,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,23934126 seconds ago
+TMMK-H-14,MPIC-WLC-01-A.mpic.toyota.com,IOS-XE,17.9.4,0,0,0,0,16234081 seconds ago
